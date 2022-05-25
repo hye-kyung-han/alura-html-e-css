@@ -102,21 +102,21 @@ form {
 	margin: 40px 0;
 }
 
-form label, form legend {
+form label, form legend, select {
 	display: block;
 	font-size: 20px;
-	margin: 0 0 10px;
+	margin: 0 10% 10px;
 }
 
 .input-padrao {
 	display: block;
-	margin: 0 0 20px;
+	margin: 0 10% 20px;
 	padding: 10px 25px;
 	width: 50%;
 }
 
 .checkbox {
-	margin: 20px 0;
+	margin: 20px 10%;
 }
 
 .enviar {
@@ -130,6 +130,7 @@ form label, form legend {
 	border-radius: 5px;
 	transition: 1s all;
 	cursor: pointer;
+	margin: 10px 10%;
 }
 
 .enviar:hover {
@@ -138,7 +139,7 @@ form label, form legend {
 }
 
 table {
-	margin: 20px 0 40px;
+	margin: 20px 10% 40px;
 }
 
 thead {
